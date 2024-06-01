@@ -1,0 +1,31 @@
+{
+    "input_data": {
+        "columns": [
+            "Tiredness",
+            "Dry-Cough",
+            "Difficulty-in-Breathing",
+            "Sore-Throat",
+            "Pains",
+            "Nasal-Congestion",
+            "Runny-Nose",
+            "Age",
+            "Gender"
+        ],
+        "index": [
+            1
+        ],
+        "data": [
+            [
+                1,
+                0,
+                1,
+                0,
+                1,
+                0,
+                0,
+                3,
+                1
+            ]
+        ]
+    }
+}
