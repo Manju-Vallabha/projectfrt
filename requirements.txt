@@ -10,3 +10,4 @@ azure-storage-blob==12.20.0
 azure-storage-file-datalake==12.15.0
 azure-storage-file-share==12.16.0
 azureml==0.2.7
+dotenv
