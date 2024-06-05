@@ -62,9 +62,6 @@ def emailalert(username, age, gender, response, Tiredness, Dry_Cough, Difficulty
         st.error(f"An error occurred while sending the email: {ex}"
 ```
 
-## Azure Communication Metrics
-![Email Implementation](images/emailss.png)
-
 ## Azure Cosmos DB Implementation
 
 In this project, I utilized Azure Cosmos DB as the database service to store and retrieve user data. This allowed me to:
@@ -85,12 +82,6 @@ Here's how I implemented it:
 - Defined a function (`entity_retrieve`) to retrieve entities (user data) from the table
 - Used the `TableClient` instance to create and query entities in the table
 
-## Azure Cosmos data table User details
-![Cosmosdb](images/dbss.png)
-
-## Azure Cosmos data table User Tracking details
-![Cosmosdb1](images/dbss2.png)
-
 By implementing Azure Cosmos DB in this way, I was able to leverage its secure and scalable database capabilities to store and retrieve user data in my application.
 
 ## Azure Machine Learning Service
@@ -102,16 +93,6 @@ In this project, I utilized the Azure Machine Learning service to train and depl
 - **Model Deployment:** Once the model was trained, I deployed it as a web service using Azure Machine Learning's managed online endpoints. This enabled me to receive predictions via API calls.
 - **Prediction and Alert System:** I integrated the deployed model with the symptom input interface, which sends user input data to the model for prediction. The predicted severity is then used to trigger automated email alerts to healthcare providers.
 
-## Azure Automl Job Training Page
-![Azuremlstudtio](images/amss(1).png)
-![Azuremlstudtio](images/amss(2).png)
-
-## Trained Model Details
-![Azuremlstudtio](images/amss(3).png)
-
-## Online Endpoint Details
-![Azuremlstudtio](images/amss(4).png)
-
 #### Benefits of Using Azure Machine Learning Service:
 
 - **Scalability:** Azure Machine Learning allowed me to scale my model to handle a large volume of predictions without worrying about infrastructure.
@@ -120,5 +101,28 @@ In this project, I utilized the Azure Machine Learning service to train and depl
 ## Future Enhancements
 
 - **Azure Health Bot Service:** To provide an interactive, AI-powered health assistant for booking doctor appointments and offering personalized health advice.
+
+## Screenshots
+
+### Azure Communication Metrics
+![Email Implementation](images/emailss.png)
+
+### Azure Cosmos DB User Details
+![Cosmos DB User Details](images/dbss.png)
+
+### Azure Cosmos DB User Tracking Details
+![Cosmos DB User Tracking](images/dbss2.png)
+
+### Azure Machine Learning Studio
+![AutoML Job Training](images/amss(1).png)
+
+#### Azure AutoML Job Training Page
+![AutoML Job Training](images/amss(2).png)
+
+#### Trained Model Details
+![Trained Model](images/amss(3).png)
+
+#### Online Endpoint Details
+![Online Endpoint](images/amss(4).png)
 
 ---
